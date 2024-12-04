@@ -10,18 +10,18 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #640fc5;
-  padding-left: 10%;
+  padding: 2em 0 2em 6em;
 }
 
 nav {
-  margin-right: 10%;
+  margin-right: 12%;
 }
 nav ul {
   display: flex;
   list-style: none;
 }
 nav li {
-  margin-left: 25px;
+  margin-left: 40px;
 }
 nav a {
   color: white;
@@ -39,6 +39,7 @@ nav a {
   font-weight: bold;
 }
 .hero p {
+  font-size: 1.2em;
   color: white;
 }
 .hero img {
@@ -49,8 +50,8 @@ nav a {
 }
 
 .container {
-  max-width: 60%;
-  margin-right: 10%;
+  max-width: 50%;
+  margin: 6em;
 }
 
 /*# sourceMappingURL=style.css.map */
