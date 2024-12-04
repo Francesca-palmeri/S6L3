@@ -1,0 +1,21 @@
+{
+  "name": "s6l3",
+  "version": "1.0.0",
+  "description": "Esercizio ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "FrancescaPalmeri"
+  },
+  "keywords": [
+    "Sass"
+  ],
+  "author": "Francesca Palmeri",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.82.0"
+  }
+}

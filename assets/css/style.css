@@ -1,0 +1,56 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #640fc5;
+  padding-left: 10%;
+}
+
+nav {
+  margin-right: 10%;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  margin-left: 25px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: #640fc5;
+  position: relative;
+  display: flex;
+}
+.hero h1 {
+  font-size: 5em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.hero p {
+  color: white;
+}
+.hero img {
+  position: absolute;
+  width: 30%;
+  left: 60%;
+  top: 10%;
+}
+
+.container {
+  max-width: 60%;
+  margin-right: 10%;
+}
+
+/*# sourceMappingURL=style.css.map */

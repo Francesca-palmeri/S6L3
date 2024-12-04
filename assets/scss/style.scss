@@ -1,0 +1,53 @@
+@use "partials/reset";
+@use "partials/buttons";
+@use "partials/animations";
+
+$backgroundPurple: #640fc5;
+$WhiteText: white;
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $backgroundPurple;
+  padding-left: 10%;
+}
+
+nav{
+  margin-right: 10%;
+   ul{
+    display: flex;
+    list-style: none;
+  } li{
+    margin-left: 25px;
+  } a{
+    color: $WhiteText;
+    text-decoration: none;
+  }
+  }
+
+  .hero{
+    background-color: $backgroundPurple;
+    position: relative;
+    display: flex;
+    h1{
+      font-size: 5em;
+      margin-bottom: 20px;
+      font-weight: bold;
+    } p{
+      color: $WhiteText;
+    } img{
+      position: absolute;
+      width: 30%;
+      left: 60%;
+      top: 10%;
+    }
+
+  }
+
+  .container{
+    max-width: 60%;
+    margin-right: 10%;
+  }
