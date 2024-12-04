@@ -1,0 +1,5 @@
+@mixin buttonData($btnWidth, $btnHeight, $btnColor){
+    width: $btnWidth;
+    height: $btnHeight;
+    background-color: $btnColor;
+}

@@ -10,7 +10,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #640fc5;
-  padding: 2em 0 2em 6em;
+  padding: 2em 0 0 8em;
 }
 
 nav {
@@ -51,7 +51,12 @@ nav a {
 
 .container {
   max-width: 50%;
-  margin: 6em;
+  margin: 8em;
+}
+.container .btnBlue {
+  width: 100px;
+  height: 50px;
+  background-color: #0E6CFF;
 }
 
 /*# sourceMappingURL=style.css.map */

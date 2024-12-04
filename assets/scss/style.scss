@@ -1,6 +1,6 @@
-@use "partials/reset";
-@use "partials/buttons";
-@use "partials/animations";
+@import "partials/reset";
+@import "partials/buttons";
+@import "partials/animations";
 
 $backgroundPurple: #640fc5;
 $WhiteText: white;
@@ -12,7 +12,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: $backgroundPurple;
-  padding: 2em 0 2em 6em ;
+  padding: 2em 0 0 8em ;
   
 }
 
@@ -49,9 +49,10 @@ nav{
 
   }
 
-
-
   .container{
     max-width: 50%;
-    margin: 6em;
+    margin: 8em;
+    .btnBlue{
+      @include buttonData(100px, 50px, #0E6CFF);
+    }
   }
